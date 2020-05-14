@@ -18,7 +18,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class Testing {
-    private static final String URL = "https://www.gsmarena.com/";
+    private static final String URL = "https://www.gsmarena.com/"
 
     @DataProvider(name = "loginFailProvider")
     public Object[][] getLoginFailProvider() throws IOException {
